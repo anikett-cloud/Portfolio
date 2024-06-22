@@ -1,0 +1,511 @@
+@media (max-width: 768px) {
+  /* .......................................................headerstart..................................................................... */
+
+  .header {
+    position: relative;
+  }
+
+  .contact-btn {
+    display: none;
+  }
+
+  .bars {
+    display: block !important;
+  }
+  .xmark {
+    display: block !important;
+  }
+
+  .navbar ul {
+    background-color: #0a192f;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    margin: 0px;
+    width: 70%;
+    height: 100vh;
+    flex-direction: column;
+    z-index: 2;
+    transition-duration: 0.5s;
+    align-items: center;
+    bottom: 0px !important;
+  }
+
+  #menu2 {
+    padding-top: 20vh;
+  }
+
+  .navbar li {
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin-top: 3vh;
+  }
+
+  .bars {
+    display: block;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .xmark {
+    display: block;
+    font-size: 30px;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+  }
+
+  .protfoliologo {
+    color: white;
+    display: block;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+
+  /* .......................................................header finsih................................................................ */
+
+  /* .....................................................bannersection start............................................................. */
+
+  .banner-section {
+    /* background-color: aqua; */
+    height: auto;
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+
+  .banner-section-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .banner-section-image img {
+    width: 100%;
+  }
+  .banner-section-descriptions {
+    display: none;
+  }
+
+  /* .........................................................bannersection finish............................................................. */
+
+  /* .............................................................myskill section start....................................................... */
+
+  .myskill {
+    font-size: 21px;
+    margin-left: 3%;
+  }
+
+  .skill-bars {
+    margin-left: 0%;
+  }
+
+  @media only screen and (max-width: 769px) {
+    .myskill {
+      margin-left: 3%;
+
+      padding: 2rem 0;
+    }
+
+    .skill-bars {
+      width: 50%;
+      margin: 2rem 0;
+      padding: 0;
+      border-radius: 0;
+      margin-left: 3%;
+    }
+
+    .bar .info span {
+      font-size: 14px;
+    }
+
+    .bar .progress-line {
+      height: 5px;
+      margin: 0;
+      border-radius: 0;
+      box-shadow: none;
+    }
+
+    .bar .progress-line span::before {
+      border: none;
+    }
+
+    .bar .progress-line span::after {
+      top: -20px;
+      font-size: 10px;
+      padding: 1px 4px;
+    }
+
+    .progress-line.html span::after {
+      content: "70";
+    }
+
+    .progress-line.css span::after {
+      content: "60";
+    }
+
+    .progress-line.jquery span::after {
+      content: "50";
+    }
+
+    .progress-line.python span::after {
+      content: "50";
+    }
+
+    .progress-line.mysql span::after {
+      content: "75";
+    }
+  }
+
+  /* .........................................................myskill section finish....................................................... */
+
+  /* ..................................................................0 to 635 ............................................................ */
+
+  /* .........................................................600 to 769px.......................................................................................... */
+
+  .about {
+    margin-left: 3%;
+    font-size: 1.5rem;
+  }
+
+  .aboutsection-description {
+    margin-left: 3%;
+    font-size: 16px;
+  }
+
+  .helloitsme {
+    margin-top: 17%;
+    margin-left: 7%;
+  }
+
+  .mynameisAniket {
+    margin-left: 7%;
+    font-size: 20px;
+  }
+
+  .andiamafrontenddevloper {
+    margin-left: 7%;
+  }
+
+  .bannerdescription {
+    margin-left: 7%;
+  }
+
+  .resume-button {
+    margin-top: 2rem;
+    width: 8.6rem;
+    margin-left: 7%;
+  }
+
+  .banner-section-descriptions {
+    height: 55vh;
+    /* background-color: aquamarine; */
+  }
+
+  .container {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .services-item {
+    width: 30%;
+  }
+}
+
+/* ...............................................................769 to 1067......................................................... */
+
+@media only screen and (min-width: 769px) and (max-width: 1067px) {
+  .about {
+    font-size: 22px;
+    margin-left: 3%;
+  }
+
+  .aboutsection-description {
+    font-size: 17px;
+    margin-left: 3%;
+  }
+
+  .navbar-list {
+    margin-left: 7%;
+  }
+
+  .helloitsme {
+    margin-left: 7.9%;
+  }
+
+  .mynameisAniket {
+    margin-left: 7.5%;
+    font-size: 20px;
+  }
+
+  .andiamafrontenddevloper {
+    margin-left: 7.5%;
+  }
+
+  .bannerdescription {
+    margin-left: 7.7%;
+  }
+
+  .resume-button {
+    margin-top: 2rem;
+    width: 8.6rem;
+    margin-left: 8%;
+  }
+
+  .myskill {
+    margin-left: 3%;
+  }
+
+  .skill-bars {
+    margin-left: 0%;
+  }
+}
+
+/* .............................o to 596........................................... */
+
+@media only screen and (min-width: 320px) and (max-width: 550px) {
+  .Skill-section {
+    height: 33rem;
+  }
+
+  .myskill {
+    margin-left: 3%;
+    font-size: 1.3rem;
+    padding-top: 25%;
+    /* display: none; */
+  }
+
+  .skill-bars {
+    width: 80%;
+    margin-top: 5%;
+
+    /* margin-left: 10%; */
+  }
+
+  .skill-bars .bar .info span {
+    font-size: 14px;
+  }
+
+  .bar .progress-line span::before {
+    top: -8px;
+    border: 5px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+  }
+
+  .bar .progress-line span::after {
+    top: -18px;
+    padding: 1px 6px;
+    font-size: 10px;
+  }
+
+  .progress-line.html span::after {
+    content: "70%";
+  }
+
+  .progress-line.css span::after {
+    content: "60%";
+  }
+
+  .progress-line.jquery span::after {
+    content: "50%";
+  }
+
+  .progress-line.python span::after {
+    content: "50%";
+  }
+
+  .progress-line.mysql span::after {
+    content: "75%";
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 669px) {
+  .mywork {
+    margin-right: 20%;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 769px) {
+  .mywork {
+    margin-left: 40%;
+    font-size: 22px;
+  }
+
+  .my-work-section {
+    height: auto;
+  }
+
+  .contact-section {
+    height: auto;
+  }
+
+  .contact-section-description {
+    width: 100% !important;
+
+    /* background-color: aqua; */
+  }
+
+  .formlogin {
+    width: 100% !important;
+  }
+
+  .letsgetintouch {
+    margin-top: 3rem;
+    margin-left: 3%;
+  }
+
+  .letsmakesomething {
+    margin-left: 3%;
+  }
+
+  .email {
+    margin-left: 3%;
+  }
+
+  .phone {
+    margin-left: 3%;
+  }
+
+  .location {
+    margin-left: 3%;
+  }
+
+  .connectwithme {
+    margin-left: 3%;
+  }
+
+  .formlogin {
+    width: 100% !important;
+  }
+  .contact-section {
+    flex-wrap: wrap;
+  }
+
+  .contactus {
+    margin-left: 3%;
+  }
+
+  .form-group {
+    margin-left: 3%;
+  }
+
+  .contact-form-button {
+    margin-left: 3%;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 769px) {
+  .about::after {
+    width: 10%;
+  }
+
+  .myskill::after {
+    width: 10%;
+  }
+
+  .mywork::after {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .form1 {
+    width: 100% !important;
+    height: auto;
+  }
+
+  .form2 {
+    width: 100% !important;
+    margin-top: 30%;
+    background-color: #0a192f;
+    height: auto;
+  }
+
+  .contact-section {
+    flex-wrap: wrap;
+    /* padding: 0px 0px; */
+    height: auto;
+    padding: 30px 0px;
+  }
+
+  .form-group > input {
+    width: 80%;
+  }
+
+  .form-group textarea {
+    width: 80%;
+  }
+
+  .contact-form-button {
+    background-color: #6ef3a3;
+    width: 35%;
+    height: 5vh;
+    border-radius: 20px;
+    margin-top: 4%;
+    color: black;
+  }
+
+  .letsgetintouch::after {
+    width: 40%;
+  }
+
+  .my-project {
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+  }
+
+  .my-project p::after {
+    width: 20%;
+    margin-top: 2.7rem;
+  }
+
+  .projects-section {
+    width: 100%;
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .fifa-project {
+    width: 100%;
+    padding: 20px;
+    /* height: auto; */
+  }
+}
+
+/* ....280-px */
+
+@media only screen and (max-width: 280px) {
+  .projects-section {
+    width: 100%;
+    /* background-color: red; */
+  }
+  .fifa-project {
+    padding: 20px 0px;
+  }
+  .Skill-section {
+    height: auto;
+    /* background-color: paleturquoise; */
+    padding-top: 50px;
+  }
+
+  .progress-line html {
+    width: 100%;
+  }
+
+  .bar .progress-line.jquery span {
+    width: 100%;
+  }
+  .bar .progress-line.python span {
+    width: 100%;
+  }
+
+  .bar .progress-line.mysql span {
+    width: 100%;
+  }
+}

@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="pss.css" />
+    <link rel="stylesheet" href="responsive.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,500;1,500&family=IBM+Plex+Serif:ital,wght@0,700;1,500;1,700&family=Mukta&family=Poppins:ital,wght@0,500;0,700;1,300&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>My portfolio</title>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
+
+   
+    
+  </head>
+  <body>
+    <!-- ....................................................header start.................................................................. -->
+    <header class="header">
+      <p class="protfoliologo">Portfolio</p>
+      <p class="responsiveprotfoliologo">Protfolio</p>
+      <nav class="navbar">
+        <ul class="navbar-list" id="menu">
+          <li id="menu2">
+            <a style="color: white" href="#">Home</a>
+          </li>
+          <li><a style="color: #6ef3a3" href="#aboutsection">About</a > </li > 
+          <li><a style="color: white" href="#mywork">Work</a></li>
+          <li><a style="color: #6ef3a3" href="#">Service</a></li>
+          <li><a style="color: white" href="#contact-section">Contact</a></li>
+          <li><a style="color: #6ef3a3" href="#skill-section">Skill</a></li>
+          <li><a style="color: white" href="#">Protfolio</a></li>
+          <i class="fa-solid fa-xmark xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars bars" onclick="openmenu()"></i>
+      </nav>
+      <button  class="contact-btn">Contact me <a href="#contact-form-button"></a></button>
+
+      
+
+    </header>
+    <!-- ..............................................................header finish.................................................................. -->
+
+    <!-- .................................. ..............................banner section start..................................................... -->
+    <section class="banner-section">
+      <div class="banner-section-descriptions">
+        <p class="helloitsme">Hello, it's me</p>
+        <p class="mynameisAniket">Aniket Singh</p>
+        <p class="andiamafrontenddevloper">And I'm a <span class="animate"></span></p>
+        <p class="bannerdescription">
+          I belongs from New Delhi & cpmpleted my Graphic,Web Designing & <br />
+          Development course from Arena Animation (South Extension)
+        </p>
+        <button class="resume-button">Resume</button>
+      </div>
+
+      <div class="banner-section-image" id="image" alt="" onclick="changeImage()">
+        <img src="images/coding pic.png" alt="">
+      </div>
+    </section>
+    <!-- .......................................................banner section finish...................................................................... -->
+
+    <!-- ...........................................ABOUT ME SECTION................................................................................ -->
+
+    <section class="aboutsection" id="aboutsection" >
+      <p class="about">About me</p>
+
+      <p class="aboutsection-description">
+        Hello, my name is Aniket and I'm a web developer based in Delhi, India.
+        While I'm new to the industry, <br />
+        I have a deep passion for web development and have honed my skills in
+        <span style="color: #6ef3a3">
+          HTML, CSS, JavaScript, jQuery, <br />
+          WordPress, PHP, and SEO.</span
+        >
+        I belongs from New Delhi & cpmpleted my Graphic,Web Designing & <br />
+        Development course from Arena Animation (South Extension)
+      </p>
+    </section>
+
+    <!-- ............................................................About section finsih................................................................................... -->
+
+    <!-- .........................................................SKILL SECTION START........................................................................... -->
+
+    <section class="Skill-section" id="skill-section">
+
+      <p class="myskill">My Skill</p>
+
+      <div class="skill-bars">
+
+        <div class="bar">
+          <div class="info">
+            <span>HTML</span>
+          </div>
+          <div class="progress-line html">
+            <span></span>
+          </div>
+        </div>
+    
+        <div class="bar">
+          <div class="info">
+            <span>CSS</span>
+          </div>
+          <div class="progress-line css">
+            <span></span>
+          </div>
+        </div>
+    
+        <div class="bar">
+          <div class="info">
+            <span>JAVASCRIPT</span>
+          </div>
+          <div class="progress-line jquery">
+            <span></span>
+          </div>
+        </div>
+    
+        <div class="bar">
+          <div class="info">
+            <span>WORDPRESS</span>
+          </div>
+          <div class="progress-line python">
+            <span></span>
+          </div>
+        </div>
+    
+        <div class="bar">
+          <div class="info">
+            <span>SEO</span>
+          </div>
+          <div class="progress-line mysql">
+            <span></span>
+          </div>
+        </div>
+        
+      </div>
+    <section>
+    <!-- .............................................................SKILL SECTION FINISH................................................................................................ -->
+<!-- ....................................................................work section start...................................................................... -->
+
+    <section class="my-work-section" id="mywork">
+      <p class="mywork">My Work</p>
+
+      <div class="image-parent">
+        <div class="image-child">
+          <a href="images/2small.png" data-fancybox="gallery" data-caption="image one">
+          <img src="images/2small.png" alt="">
+        </a>
+        </div>
+        <div class="image-child">
+          <a href="images/3small.jpg" data-fancybox="gallery" data-caption="image one">
+          <img src="images/3small.jpg" alt="">
+          </a>
+        </div>
+        <div class="image-child">
+          <a href="images/4.jpg" data-fancybox="gallery" data-caption="image one">
+          <img src="images/4.jpg" alt="">
+          </a>
+        </div>
+        <div class="image-child">
+          <a href="images/8small.jpg" data-fancybox="gallery" data-caption="image one">
+          <img src="images/8small.jpg" alt="">
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- .......................................................work section finish................................................................................... -->
+
+
+    <section class="my-project">
+      <p>My live Projects</p>
+      <div class="projects-section">
+      <iframe class="fifa-project" src="https://techaniket.com/fifa/" frameborder="0"></iframe>
+      <iframe class="fifa-project" src="https://unpluggedcamera.com/" frameborder="0"></iframe>
+    </div>
+    </section>
+
+
+
+
+    <!-- ............................................................contact section start............................................................................... -->
+
+
+    <section class="contact-section" id="contact-section">
+      <div class="form1">
+        <p class="letsgetintouch">Let's get in touch</p>
+        <p class="letsmakesomething">
+          Let's make something new, different and more meaningful <br />
+          or make thing more visual or conceptual
+        </p>
+
+        <div class="email-section">
+          <i class="fa-solid fa-envelope email"> </i>
+          <span class="email-section-email-name">aniketweb333@gmail.com</span>
+        </div>
+
+        <div class="callme-section">
+          <i class="fa-solid fa-phone phone"></i>
+          <span class="email-section-email-name">9310796272</span>
+        </div>
+
+        <div class="location-section">
+          <i class="fa-solid fa-location-dot location"></i>
+          <span class="email-section-email-name">New-delhi</span>
+        </div>
+
+        <div class="connectwithme">
+          <p>connect with me :</p>
+
+          <div class="social-media-icons">
+            <i class="fa-brands fa-facebook-f fb"></i>
+            <i class="fa-brands fa-instagram insta"></i>
+            <i class="fa-brands fa-linkedin-in link"></i>
+          </div>
+        </div>
+      </div>
+      <div class="form2">
+        <p class="contactus">Contact Us</p>
+
+        <form>
+          <div class="form-group">
+            <label for="name"></label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="Name"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="email"></label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="Email"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="message"></label>
+            <textarea
+              id="message"
+              name="message"
+              required
+              placeholder="Message"
+            ></textarea>
+          </div>
+
+          <button class="contact-form-button" type="submit" id="contact-form-button">Submit</button>
+        </form>
+      </div>
+    </section>
+
+      
+
+      
+
+
+
+    
+   
+
+
+
+
+    <!-- ..........................................................js.................................................................................. -->
+
+<script src="index.js"></script>
+
+    <script>
+      var menu = document.getElementById("menu");
+
+      function openmenu() {
+        menu.style.left = "0%";
+      }
+
+      function closemenu() {
+        menu.style.left = "-100%";
+      }
+
+     
+
+     
+
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+  </body>
+</html>

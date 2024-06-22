@@ -1,0 +1,613 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+/* ............................................................header start.......................................................... */
+
+.header {
+  background-color: #0a192f;
+  height: 8rem;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  z-index: 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+  right: 0;
+}
+
+.protfoliologo {
+  display: none;
+}
+
+.responsiveprotfoliologo {
+  display: none;
+}
+
+.navbar-list {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  margin-left: 6rem;
+  margin-top: 1.5rem;
+}
+.navbar-list a {
+  position: relative;
+  text-decoration: none;
+}
+
+.navbar-list a::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0;
+  background-color: white;
+  transition: width 0.3s ease-in-out;
+  position: absolute;
+  bottom: 2;
+  left: 0;
+}
+
+.navbar-list a:hover::after {
+  width: 100%;
+  bottom: 2;
+}
+
+.navbar-list a {
+  text-decoration: none;
+  /* color: white; */
+}
+
+.navbar-list a:hover {
+  text-decoration: underline;
+  margin-top: 2%;
+}
+
+.contact-btn {
+  height: 2rem;
+  border-radius: 1rem;
+  background-color: red;
+  color: white;
+  border: none;
+  /* padding: 0.5rem 1rem; */
+  font-size: 0.9rem;
+  /* font-weight: bold; */
+  /* cursor: pointer; */
+  /* matches height of button */
+  width: 8rem;
+  margin-top: 1.3rem;
+  margin-right: 4rem;
+}
+
+.xmark {
+  display: none !important;
+  color: white;
+}
+
+.bars {
+  display: none !important;
+  color: white;
+}
+
+/* ...........................................................header finish.............................................................. */
+
+/* .....................................................banner section start................................................................. */
+
+.banner-section {
+  height: 28rem;
+  background-color: #0a192f;
+  display: flex;
+  width: 100%;
+}
+
+.banner-section-descriptions {
+  width: 40%;
+  height: 26rem;
+
+  /* background-color: yellow; */
+}
+
+.helloitsme {
+  color: #6ef3a3;
+  font-size: 1rem;
+  margin-left: 5.8rem;
+  margin-top: 3.6rem;
+
+  font-family: "Roboto", sans-serif;
+}
+
+.mynameisAniket {
+  font-size: 1.6rem;
+  margin-left: 5.6rem;
+  margin-top: 0.5rem;
+  color: white;
+}
+
+.andiamafrontenddevloper {
+  font-size: 1rem;
+  color: #6ef3a3;
+  margin-left: 5.6rem;
+  margin-top: 0.5rem;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "IBM Plex Serif", serif;
+  font-family: "Mukta", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.bannerdescription {
+  font-size: 0.875rem;
+  color: white;
+  margin-left: 5.6rem;
+  margin-top: 1.1rem;
+}
+
+.resume-button {
+  width: 9.5rem;
+  height: 2.3rem;
+  background-color: #6ef3a3; /* Change to desired background color */
+  color: black;
+  font-size: 1rem;
+  border: none;
+  /* border-radius: 4px; */
+  cursor: pointer;
+  margin-left: 5.6rem;
+  margin-top: 1rem;
+}
+
+.resume-button:hover {
+  background-color: #3e8e41; /* Change to desired hover color */
+}
+
+.banner-section-image.hover {
+  cursor: pointer;
+}
+
+.banner-section-image {
+  /* background-color: #3e8e41; */
+  display: flex;
+  justify-content: end;
+  width: 40%;
+  height: 400px;
+}
+
+.banner-section-image img {
+  width: 100%;
+  height: auto;
+}
+
+/* ..........................................banner section finsish.................................................................. */
+
+/* ...................................................about section start........................................................................... */
+
+.aboutsection {
+  height: 17rem;
+  background-color: #0a192f;
+}
+
+.about {
+  margin-left: 5.4rem;
+  font-size: 1.7rem;
+  color: white;
+  padding-top: 3rem;
+  position: relative;
+}
+
+.about::after {
+  content: "";
+  position: absolute;
+  display: block;
+  left: 1;
+  margin-top: 0.5rem;
+  width: 5%;
+  height: 2px;
+  background-color: #6ef3a3;
+}
+
+.aboutsection-description {
+  color: white;
+  margin-left: 5.5rem;
+  margin-top: 2rem;
+  font-size: 17px;
+}
+
+/* ................................................................about section finish...................................................................... */
+
+/* ...........................................................................skill-section start.............................................................. */
+
+.Skill-section {
+  height: 30rem;
+  background-color: #0a192f;
+}
+
+.myskill {
+  margin-left: 5.4rem;
+  font-size: 1.7rem;
+  color: white;
+  padding-top: 3rem;
+  position: relative;
+}
+
+.myskill::after {
+  content: "";
+  position: absolute;
+  display: block;
+  left: 1;
+  margin-top: 0.5rem;
+  width: 6%;
+  height: 2px;
+  background-color: #6ef3a3;
+}
+
+.skill-bars {
+  padding: 25px 30px;
+  width: 50%;
+  /* background: red; */
+  /* box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2); */
+  border-radius: 10px;
+  height: 52%;
+  /* position: absolute; */
+  margin-top: 2%;
+  margin-left: 3.7%;
+  color: white;
+}
+
+.skill-bars .bar {
+  margin: 20px 0;
+}
+
+.skill-bars .bar:first-child {
+  margin-top: 0px;
+}
+
+.skill-bars .bar .info {
+  margin-bottom: 5px;
+}
+
+.skill-bars .bar .info span {
+  font-weight: 500;
+  font-size: 17px;
+  opacity: 0;
+  animation: showText 0.5s 1s linear forwards;
+}
+
+@keyframes showText {
+  100% {
+    opacity: 1;
+  }
+}
+
+.skill-bars .bar .progress-line {
+  height: 10px;
+  width: 100%;
+  background: #f0f0f0;
+  position: relative;
+  transform: scaleX(0);
+  transform-origin: left;
+  border-radius: 10px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05),
+    0 1px rgba(255, 255, 255, 0.8);
+  animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+@keyframes animate {
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+.bar .progress-line span {
+  height: 100%;
+  position: absolute;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  background: #6ef3a3;
+  animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+.bar .progress-line.html span {
+  width: 70%;
+}
+
+.bar .progress-line.css span {
+  width: 60%;
+}
+
+.bar .progress-line.jquery span {
+  width: 50%;
+}
+
+.bar .progress-line.python span {
+  width: 50%;
+}
+
+.bar .progress-line.mysql span {
+  width: 75%;
+}
+
+.progress-line span::before {
+  position: absolute;
+  content: "";
+  top: -10px;
+  right: 0;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-top-color: #000;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+
+.progress-line span::after {
+  position: absolute;
+  top: -28px;
+  right: 0;
+  font-weight: 500;
+  background: #000;
+  color: #fff;
+  padding: 1px 8px;
+  font-size: 12px;
+  border-radius: 3px;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+
+@keyframes showText2 {
+  100% {
+    opacity: 1;
+  }
+}
+
+.progress-line.html span::after {
+  content: "70%";
+}
+
+.progress-line.css span::after {
+  content: "60%";
+}
+
+.progress-line.jquery span::after {
+  content: "50%";
+}
+
+.progress-line.python span::after {
+  content: "50%";
+}
+
+.progress-line.mysql span::after {
+  content: "75%";
+}
+
+/* ..........................................................Skill-section finish................................................................................. */
+
+/* ......................................................work-section-start....................................................................................... */
+.my-work-section {
+  height: auto;
+  background-color: #0a192f;
+  width: 100%;
+}
+
+.mywork {
+  margin-left: 5.4rem;
+  font-size: 1.7rem;
+  color: white;
+  padding-top: 3rem;
+  position: relative;
+}
+
+.mywork::after {
+  content: "";
+  position: absolute;
+  display: block;
+  left: 1;
+  margin-top: 0.5rem;
+  width: 5%;
+  height: 2px;
+  background-color: #6ef3a3;
+}
+
+.image-parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.image-child {
+  width: 300px;
+  height: 250px;
+  margin: 20px 25px;
+}
+
+.image-child img {
+  width: 100%;
+}
+
+/* .....................................my-project-section-start..................................... */
+
+.my-project {
+  width: 100%;
+  height: 600px;
+  background-color: #0a192f;
+  /* display: flex; */
+}
+
+.my-project p {
+  padding: 30px 15px;
+  font-size: 28px;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.my-project p::after {
+  content: "";
+  position: absolute;
+  display: block;
+  left: 1;
+  margin-top: 2.5rem;
+  width: 5%;
+  height: 2px;
+  background-color: #6ef3a3;
+}
+
+.projects-section {
+  display: flex;
+  width: 100%;
+  /* background-color: red; */
+  /* margin: 20px 0px; */
+}
+
+.fifa-project {
+  width: 50%;
+  height: 500px;
+  padding: 10px;
+}
+
+/* .....................................my-project-section-finish..................................... */
+
+/* ......................................................................contact-section-start....................................................... */
+
+.contact-section {
+  width: 100%;
+  height: 600px;
+  background-color: #0a192f;
+  display: flex;
+  padding: 90px 0px;
+}
+
+.form1 {
+  width: 50%;
+  background-color: #0a192f;
+  height: 300px;
+}
+
+.letsgetintouch {
+  color: white;
+  font-size: 30px;
+  margin-left: 11%;
+}
+
+.letsgetintouch::after {
+  content: "";
+  position: absolute;
+  display: block;
+  left: 1;
+  margin-top: 0.5rem;
+  width: 8%;
+  height: 2px;
+  background-color: #6ef3a3;
+}
+
+.letsmakesomething {
+  font-size: 17px;
+  color: white;
+  margin-left: 11%;
+  margin-top: 7%;
+}
+
+.email {
+  color: #6ef3a3;
+  margin-left: 11%;
+  margin-top: 6%;
+  font-size: px;
+}
+
+.email-section-email-name {
+  color: white;
+  margin-left: 1%;
+  font-size: 16px;
+}
+
+.phone {
+  color: #6ef3a3;
+  margin-left: 11%;
+  margin-top: 3%;
+  font-size: 18px;
+}
+
+.location {
+  color: #6ef3a3;
+  margin-left: 11%;
+  margin-top: 3%;
+  font-size: 18px;
+}
+
+.connectwithme {
+  color: white;
+  margin-left: 11.3%;
+  font-size: 20px;
+  color: white;
+  margin-top: 5%;
+}
+
+.social-media-icons {
+  /* background-color: #6ef3a3;   */
+  margin-top: 2%;
+}
+
+.insta {
+  margin-left: 3%;
+}
+
+.link {
+  margin-left: 3%;
+  margin-top: 0.5%;
+}
+
+.form2 {
+  width: 50%;
+  background-color: #0a192f;
+  height: 600px;
+}
+
+.contactus {
+  font-size: 1.7rem;
+  color: white;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  padding-top: 4%;
+}
+.form-group label {
+  align-self: flex-start;
+}
+.form-group > input {
+  height: 40px;
+  width: 60%;
+  border-radius: 20px;
+  border: solid #6ef3a3;
+  background-color: #0a192f;
+}
+
+.form-group ::placeholder {
+  color: white;
+  padding: 20px;
+}
+
+.form-group textarea {
+  width: 60%;
+  background-color: #0a192f;
+  border-radius: 20px;
+  border: solid #6ef3a3;
+  height: 40vh;
+}
+
+.form-group textarea ::placeholder {
+  color: white;
+}
+
+.contact-form-button {
+  background-color: #6ef3a3;
+  width: 15%;
+  height: 5vh;
+  border-radius: 20px;
+  margin-top: 4%;
+  color: black;
+}
